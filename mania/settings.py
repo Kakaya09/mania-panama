@@ -25,7 +25,7 @@ SECRET_KEY = '&@c#r3f2h8m9tc7$_b_d^k#g_9%@&ovemr-32@)qwr0(irhvyt'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1','.mania-panama.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','.maniapanama.pythonanywhere.com']
 
 
 # Application definition
