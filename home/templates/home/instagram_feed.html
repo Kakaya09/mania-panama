@@ -1,0 +1,27 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'home/css/insta_style.css' %}" type="text/css">
+    <script type="text/javascript" src="{% static 'home/grayscale/js/instafeed.min.js' %}"></script>
+        <script type="text/javascript">
+            var userFeed;
+            userFeed = new Instafeed({
+                get: 'user',
+                userId: '1768968713',
+                clientId: '66f85c2eaa3a4303b9a6c7e10ea6f1a3',
+                accessToken: '1768968713.66f85c2.22068915c2554df4be2291e7dac0e354',
+                resolution: 'standard_resolution',
+                sortBy: 'most-recent',
+                links: true,
+                limit: 8
+            });
+          userFeed.run();
+        </script>
+
+</head>
+<body>
+
+    <div id="instafeed"></div>
+
+</body>
