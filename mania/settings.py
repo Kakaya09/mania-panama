@@ -23,11 +23,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '&@c#r3f2h8m9tc7$_b_d^k#g_9%@&ovemr-32@)qwr0(irhvyt'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
 
-# ALLOWED_HOSTS = ['.maniapanama.pythonanywhere.com' , '.maniapanama.com']
+ALLOWED_HOSTS = ['.maniapanama.pythonanywhere.com' , '.maniapanama.com']
 
 
 # Application definition
